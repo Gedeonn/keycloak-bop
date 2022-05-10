@@ -9,7 +9,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 window.onload = function () {
     window.keycloak = new Keycloak({
         url: keycloakUrl,
-        realm: 'OAF',
+        realm: 'OneAcreFund',
         clientId: 'back-office-portal',
         scope: 'openid email phone'
     });
